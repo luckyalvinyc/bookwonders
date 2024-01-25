@@ -6,7 +6,7 @@
     "start": "concurrently \"./backend/bin/rails s\" \"./frontend/bin/start\""
   },
   "author": "Lucky Alvin Y. Casipe <luckyalvinyc@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
