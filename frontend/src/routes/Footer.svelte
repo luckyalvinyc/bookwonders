@@ -114,16 +114,21 @@
   }
   .information .email-address {
     position: relative;
-    max-width: 216px;
+    max-width: 190px;
+    border: 1px solid var(--purple);
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
   }
   .information .email-address input {
+    border: none;
     background-color: var(--gray-1);
-    padding: 0.7rem 1.7rem 0.7rem 1rem;
+    padding: 0.7rem 0;
+    width: 100%;
   }
   .information .email-address img {
     position: absolute;
     top: 50%;
-    right: 1px;
     transform: translateY(-50%) rotate(-90deg);
   }
 
