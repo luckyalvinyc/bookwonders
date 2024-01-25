@@ -1,0 +1,10 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+american_elf:
+  title: American Elf
+  authors: [ joel_hartse ]
+  isbn_13: 978-1-891830-85-3
+  publication_year: 2004
+  publisher: paste_magazine
+  list_price: 1000
+  edition: Book 2

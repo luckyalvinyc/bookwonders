@@ -1,0 +1,11 @@
+json.title book.title
+json.authors book.authors.to_csv
+json.isbn_13 book.isbn.thirteen
+json.isbn_10 book.isbn.ten
+json.publication_year book.publication_year
+json.publisher book.publisher.name
+json.edition book.edition
+json.price book.list_price.to_i
+json.image_url book.image_url
+json.created_at book.created_at.iso8601
+json.updated_at book.updated_at.iso8601
