@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+until $(curl --output /dev/null --silent --head --fail http://localhost:3000/up); do
+  sleep 1
+done
+
+npm install --prefix frontend && npm run --prefix frontend dev -- --open
