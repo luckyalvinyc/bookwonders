@@ -1,0 +1,13 @@
+{
+  "name": "bookwonders",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"./backend/bin/rails s\" \"./frontend/bin/start\""
+  },
+  "author": "Lucky Alvin Y. Casipe <luckyalvinyc@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
