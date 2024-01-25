@@ -1,7 +1,7 @@
 {
   "name": "bookwonders",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curated reads for every book lover. Explore our diverse library and join a vibrant community. Elevate your reading experience.",
   "scripts": {
     "start": "concurrently \"./backend/bin/rails s\" \"./frontend/bin/start\""
   },
